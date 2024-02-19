@@ -1,0 +1,166 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div,
+p {
+  display: block;
+}
+
+header,
+section,
+footer {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+section {
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Poppins;
+  font-size: 2.2rem;
+  color: #444;
+}
+
+p {
+  color: #222;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+h4 {
+  font-family: Bebas neue;
+  font-size: 5.1rem;
+  text-align: center;
+}
+
+h1 {
+  color: #AD343E;
+  font-family: Poppins;
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+h2 {
+  font-family: Poppins;
+  text-align: center;
+  color: #999;
+  font-size: 2.2rem;
+}
+
+h3 {
+  color: #AD343E;
+  font-size: 1.5rem;
+}
+
+header,
+footer {
+  background-color: #ddd;
+}
+
+.blocks {
+  padding: 3rem 0;
+}
+.blocks h2 {
+  border-left: 2rem;
+  color: #AD343E
+}
+.blocks ul {
+  list-style-type: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  padding: 1rem 0;
+  width: 100%;
+}
+.blocks li {
+  font-family: Poppins;
+  color: #999;
+  display: block;
+  margin: 1.5rem auto;
+  width: 30%;
+}
+.blocks li .img-container {
+  display: block;
+  height: 200px;
+  overflow: hidden;
+  width: 100%;
+}
+.blocks li a {
+  background-color: #AD343E;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  font-size: 1.8rem;
+  margin: 1rem auto 1.5rem;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.cars h2 {
+  color: #AD343E;
+}
+.cars li {
+  color: #222;
+}
+.cars li a {
+  background-color: #444;
+}
+
+.destack {
+  background-color: #222;
+  padding: 1.5rem;
+}
+.destack h1 {
+  font-family: Poppins black;
+  text-align: center;
+  color: #AD343E;
+  font-size: 3rem;
+  margin-top: 0;
+}
+.destack h2 {
+  text-align: center;
+  font-family: Poppins light;
+  font-weight: 100;
+  font-size: 1.2rem;
+  margin-left: 1.5rem;
+  margin-top: -0.5rem;
+}
+.destack img {
+  width: 100%;
+  height: auto;
+  margin: 1.5rem auto;
+}
+.destack p {
+  font-family: Poppins light;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #DDD;
+  padding: -2rem 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
